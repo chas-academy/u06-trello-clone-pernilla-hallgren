@@ -102,6 +102,15 @@ $(() => {
         dateFormat: 'yy-mm-dd',  
         showAnim: 'fade'  
     });
+    
+    // Checked boxes 
+    $('.form-check-label').on('click', function(){
+        $(this).toggleClass('strike');
+        $(this).animate({
+            opacity: '0.5',
+            easing: "easein"
+        });
+    });
 
 
 
