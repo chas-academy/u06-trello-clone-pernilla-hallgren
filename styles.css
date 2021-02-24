@@ -1,0 +1,235 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.navbar {
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-item:hover {
+    text-decoration-line: underline;
+    font-weight: 400;
+}
+
+.form-control {
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.btn-outline-success {
+    border-radius: 10px;
+    border-color: #39A0FF;
+    color: #39A0FF;
+    font-weight: 300;
+}
+
+.btn-primary {
+    background-color: #39A0FF;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-weight: 300;
+}
+
+.card {
+    box-shadow: 11px 7px 16px #e2e2e2;
+
+}
+
+.btn-outline-secondary {
+    height: 35px;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #39A0FF;
+    border-radius: 10px;
+    font-weight: 300;
+    background-color: #E1F1FF;
+    color: #696969;
+}
+
+p {
+    font-weight: 300;
+}
+
+.card-header {
+    text-align: center;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    padding: 10px;
+}
+
+#card-header-one {
+    background-color: #E4ACF8;
+}
+
+#card-header-two {
+    background-color: #ADA0FD;
+}
+
+#card-header-three {
+    background-color: #F5DD87;
+}
+
+#card-header-four {
+    background-color: #c5f587;
+}
+
+.card-title {
+    border-bottom: 1px solid rgb(197, 197, 197);
+    padding-bottom: 10px;
+}
+
+.card-body {
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.form-check {
+    margin: 15px 0 15px 0;
+}
+
+.form-check-label {
+    font-weight: 300;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bi-info-square {
+    justify-content: right;
+    float: right;
+    padding-bottom: 10px;
+}
+
+.bi-info-square:hover {
+    fill: #39A0FF;
+}
+
+.bi-arrow-down-circle {
+    justify-content: right;
+    float: right;
+}
+
+.bi-arrow-down-circle:hover {
+    fill: #39A0FF;
+}
+
+.bi-plus-circle:hover {
+    fill: #39A0FF;
+}
+
+
+.card-body-placeholder {
+    border: 0.5px dotted #c5c5c5;
+    border-radius: 10px;
+    margin: 10px;
+    height: 100px;
+}
+
+.date {
+    border-top: 1px solid rgb(197, 197, 197);
+    padding-bottom: 10px;
+    
+}
+
+.bi-calendar2-check:hover {
+    fill: #39A0FF;
+}
+
+.datepicker {
+    border: none;
+    margin-top: 10px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.ui-datepicker {
+    background-color: white;
+    padding: 20px;
+    border: 0.5px solid #c5c5c5;
+    cursor: default;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.pressed {
+    font-size: 12px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #9acd32;
+    color: white;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    border-color: rgb(138, 185, 44)
+}
+
+.btn-red {
+    background-color: #cd3232;
+    border-color: rgb(185, 44, 44)
+}
+
+.ui-dialog-titlebar {
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ui-dialog-titlebar-close {
+    display: none;
+}
+
+.ui-dialog button {
+    height: 35px;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #39A0FF;
+    border-radius: 10px;
+    font-weight: 300;
+    background-color: #E1F1FF;
+    color: #696969;
+}
+
+.ui-dialog {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: black;
+    padding: 20px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #39A0FF;
+    box-shadow: 4px 4px 4px #bebebe;
+}
+
+.tabs {
+    color: black;
+    text-decoration: underline;
+    font-weight: 300;
+    margin: 10px;     
+}
+
+.tabs:hover {
+    color: #39A0FF;
+}
+
+li {
+    list-style-type: none;
+    display: inline;   
+}
+
+
