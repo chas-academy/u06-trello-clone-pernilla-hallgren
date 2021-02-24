@@ -102,7 +102,7 @@ $(() => {
         dateFormat: 'yy-mm-dd',  
         showAnim: 'fade'  
     });
-    
+
     // Checked boxes 
     $('.form-check-label').on('click', function(){
         $(this).toggleClass('strike');
@@ -111,6 +111,28 @@ $(() => {
             easing: "easein"
         });
     });
+
+        //WIDGET - change color on btn
+    $.widget('custom.color', {
+        //setting for the widget
+        options: {
+            text: 'Normal',
+        },
+
+        // logic
+        _create: function() {
+            // Options are already merged and stored in this.options
+            const text = this.options.text;
+
+            this.element
+                .text(text)
+                .on('click', function() {
+                    $(this).toggleClass('btn-red')
+                    $(this).text($(this).text() == 'Normal' ? 'Urgent' : 'Normal');
+                });              
+        },
+    });
+    $('.pressed').color();
 
 
 
