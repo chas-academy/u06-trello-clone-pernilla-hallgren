@@ -82,6 +82,27 @@ $(() => {
     });
     $('.info-4').on('click', function() {
         $('#info-dialogbox-four').dialog('open');
-    });      
+    });    
+    
+    // SORTABLE - Move the cards between columns 
+    $('.card').sortable({
+        connectWith: '.card',
+        items: '.card-body',
+        placeholder: 'card-body-placeholder'   
+    });
+
+        // TABS
+    $('.tabs-section').tabs({
+        show: 300, hide: 300
+    });
+   
+
+    // DATEPICKER - Set datepicker on the card + animation
+    $('.datepicker').datepicker({
+        dateFormat: 'yy-mm-dd',  
+        showAnim: 'fade'  
+    });
+
+
 
 });
