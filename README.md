@@ -63,8 +63,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -77,7 +75,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://trello.com)
+![u06-Trello-Clone Screen Shot](/images/Screenshot-u06.png)
 
 I denna uppgift ska du bygga en applikation som fungerar som ett "kanban-board", likt t.ex. Trello.com. För denna uppgift är det endast frontend och ingen backend som ska implementeras.
 
@@ -117,7 +115,7 @@ Den färdiga lösningen måste implementera:
 
 ### Code Exampels 
 
-[picture](images/code-example.png)
+![code example](/images/code-example.png)]
 
 
 ### Installation
@@ -128,18 +126,11 @@ Den färdiga lösningen måste implementera:
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<!-- ## Usage
 
-[picture](images/Screenshot-u06.png)
-
+[![picture](/images/Screenshot-u06.png)] -->
 
 <!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
