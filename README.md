@@ -27,11 +27,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="#">
-    <img src="" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">u06-Trello-Clone</h3>
+  <h2 align="center">u06-Trello-Clone</h2>
 
   <p align="center">
     Pernilla Hällgren @ ChasAcademy 2021
